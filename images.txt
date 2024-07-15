@@ -4,3 +4,13 @@
 #xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64/v8 eclipse-temurin:8u412-b08-jdk-focal
+--platform=linux/amd64 eclipse-temurin:8u412-b08-jdk-focal
+
+--platform=linux/arm64/v8 eclipse-temurin:8u412-b08-jdk-centos7
+--platform=linux/amd64 eclipse-temurin:8u412-b08-jdk-centos7
+
+--platform=linux/arm64 eclipse-temurin:8u412-b08-jdk-ubi9-minimal
+--platform=linux/amd64 eclipse-temurin:8u412-b08-jdk-ubi9-minimal
+
+--platform=linux/arm64/v8 eclipse-temurin:8u412-b08-jdk-jammy
+--platform=linux/amd64 eclipse-temurin:8u412-b08-jdk-jammy
