@@ -3,45 +3,45 @@
 #eclipse-temurin:8u412-b08-jdk-focal
 #xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64/v8 eclipse-temurin:8u412-b08-jdk-focal
---platform=linux/amd64 eclipse-temurin:8u412-b08-jdk-focal
+#--platform=linux/arm64/v8 eclipse-temurin:8u412-b08-jdk-focal
+#--platform=linux/amd64 eclipse-temurin:8u412-b08-jdk-focal
 
---platform=linux/arm64/v8 eclipse-temurin:8u412-b08-jdk-centos7
---platform=linux/amd64 eclipse-temurin:8u412-b08-jdk-centos7
+#--platform=linux/arm64/v8 eclipse-temurin:8u412-b08-jdk-centos7
+#--platform=linux/amd64 eclipse-temurin:8u412-b08-jdk-centos7
 
---platform=linux/arm64 eclipse-temurin:8u412-b08-jdk-ubi9-minimal
---platform=linux/amd64 eclipse-temurin:8u412-b08-jdk-ubi9-minimal
+#--platform=linux/arm64 eclipse-temurin:8u412-b08-jdk-ubi9-minimal
+#--platform=linux/amd64 eclipse-temurin:8u412-b08-jdk-ubi9-minimal
 
---platform=linux/arm64/v8 eclipse-temurin:8u412-b08-jdk-jammy
---platform=linux/amd64 eclipse-temurin:8u412-b08-jdk-jammy
+#--platform=linux/arm64/v8 eclipse-temurin:8u412-b08-jdk-jammy
+#--platform=linux/amd64 eclipse-temurin:8u412-b08-jdk-jammy
 
---platform=linux/amd64 prom/prometheus:v2.53.1
---platform=linux/arm64/v8 prom/prometheus:v2.53.1
+#--platform=linux/amd64 prom/prometheus:v2.53.1
+#--platform=linux/arm64/v8 prom/prometheus:v2.53.1
 
---platform=linux/amd64 prom/prometheus:v2.45.6
---platform=linux/arm64/v8 prom/prometheus:v2.45.6
+#--platform=linux/amd64 prom/prometheus:v2.45.6
+#--platform=linux/arm64/v8 prom/prometheus:v2.45.6
 
---platform=linux/amd64 grafana/grafana:9.5.20
---platform=linux/arm64/v8 grafana/grafana:9.5.20
+#--platform=linux/amd64 grafana/grafana:9.5.20
+#--platform=linux/arm64/v8 grafana/grafana:9.5.20
 
 
---platform=linux/amd64 redis:7.2.5
---platform=linux/arm/v5 redis:7.2.5
+#--platform=linux/amd64 redis:7.2.5
+#--platform=linux/arm/v5 redis:7.2.5
 
---platform=linux/amd64 redis:7.2.5-bookworm
---platform=linux/arm/v5 redis:7.2.5-bookworm
+#--platform=linux/amd64 redis:7.2.5-bookworm
+#--platform=linux/arm/v5 redis:7.2.5-bookworm
 
---platform=linux/amd64  redis:6.2.14-bookworm
---platform=linux/arm/v5  redis:6.2.14-bookworm
+#--platform=linux/amd64  redis:6.2.14-bookworm
+#--platform=linux/arm/v5  redis:6.2.14-bookworm
 
---platform=linux/amd64  redis:5.0.14
---platform=linux/arm/v5  redis:5.0.14
+#--platform=linux/amd64  redis:5.0.14
+#--platform=linux/arm/v5  redis:5.0.14
 
---platform=linux/amd64  redis:5.0.14-bullseye
---platform=linux/arm/v5  redis:5.0.14-bullseye
+#--platform=linux/amd64  redis:5.0.14-bullseye
+#--platform=linux/arm/v5  redis:5.0.14-bullseye
 
---platform=linux/amd64  redis:4.0.14-alpine
---platform=linux/arm/v5  redis:4.0.14-alpine
+#--platform=linux/amd64  redis:4.0.14-alpine
+#--platform=linux/arm/v5  redis:4.0.14-alpine
 
 --platform=linux/amd64  redis:4.0.14
 --platform=linux/arm/v5  redis:4.0.14
@@ -78,3 +78,12 @@
 
 --platform=linux/amd64  centos:centos7.9.2009
 --platform=linux/arm64/v8   centos:centos7.9.2009
+
+--platform=linux/amd64 elasticsearch:7.17.22
+--platform=linux/arm64 elasticsearch:7.17.22
+
+--platform=linux/amd64 kibana:7.17.22
+--platform=linux/arm64 kibana:7.17.22
+
+--platform=linux/amd64 jaegertracing/all-in-one:latest
+--platform=linux/arm64 jaegertracing/all-in-one:latest
