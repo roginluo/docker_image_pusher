@@ -14,3 +14,12 @@
 
 --platform=linux/arm64/v8 eclipse-temurin:8u412-b08-jdk-jammy
 --platform=linux/amd64 eclipse-temurin:8u412-b08-jdk-jammy
+
+--platform=linux/amd64 prom/prometheus:v2.53.1
+--platform=linux/arm64/v8 prom/prometheus:v2.53.1
+
+--platform=linux/amd64 prom/prometheus:v2.45.6
+--platform=linux/arm64/v8 prom/prometheus:v2.45.6
+
+--platform=linux/amd64 grafana/grafana:9.5.20
+--platform=linux/arm64/v8 grafana/grafana:9.5.20
