@@ -23,3 +23,58 @@
 
 --platform=linux/amd64 grafana/grafana:9.5.20
 --platform=linux/arm64/v8 grafana/grafana:9.5.20
+
+
+--platform=linux/amd64 redis:7.2.5
+--platform=linux/arm/v5 redis:7.2.5
+
+--platform=linux/amd64 redis:7.2.5-bookworm
+--platform=linux/arm/v5 redis:7.2.5-bookworm
+
+--platform=linux/amd64  redis:6.2.14-bookworm
+--platform=linux/arm/v5  redis:6.2.14-bookworm
+
+--platform=linux/amd64  redis:5.0.14
+--platform=linux/arm/v5  redis:5.0.14
+
+--platform=linux/amd64  redis:5.0.14-bullseye
+--platform=linux/arm/v5  redis:5.0.14-bullseye
+
+--platform=linux/amd64  redis:4.0.14-alpine
+--platform=linux/arm/v5  redis:4.0.14-alpine
+
+--platform=linux/amd64  redis:4.0.14
+--platform=linux/arm/v5  redis:4.0.14
+
+--platform=linux/amd64 alpine:3.20.1
+--platform=linux/arm/v6 alpine:3.20.1
+
+--platform=linux/amd64  ubuntu:jammy
+--platform=linux/arm64/v8 ubuntu:jammy
+
+--platform=linux/amd64  ubuntu:22.04
+--platform=linux/arm64/v8 ubuntu:22.04
+
+--platform=linux/amd64  ubuntu:jammy-20240627.1
+--platform=linux/arm64/v8 ubuntu:jammy-20240627.1
+
+--platform=linux/amd64  ubuntu:focal-20240530
+--platform=linux/arm64/v8 ubuntu:focal-20240530
+
+
+--platform=linux/amd64  ubuntu:focal
+--platform=linux/arm64/v8 ubuntu:focal
+
+--platform=linux/amd64 rockylinux:9.3.20231119-minimal
+--platform=linux/arm64 rockylinux:9.3.20231119-minimal
+
+
+--platform=linux/amd64 rockylinux:9.3-minimal
+--platform=linux/arm64 rockylinux:9.3-minimal
+
+
+--platform=linux/amd64 rockylinux:8.9-minimal
+--platform=linux/arm64 rockylinux:8.9-minimal
+
+--platform=linux/amd64  centos:centos7.9.2009
+--platform=linux/arm64/v8   centos:centos7.9.2009
