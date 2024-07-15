@@ -3,4 +3,4 @@
 #eclipse-temurin:8u412-b08-jdk-focal
 #xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64/V8 eclipse-temurin:8u412-b08-jdk-focal
+--platform=linux/arm64/v8 eclipse-temurin:8u412-b08-jdk-focal
