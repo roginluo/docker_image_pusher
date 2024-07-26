@@ -1,3 +1,9 @@
+--platform=linux/amd64 otel/opentelemetry-collector-contrib:0.105.0
+--platform=linux/arm64 otel/opentelemetry-collector-contrib:0.105.0
+--platform=linux/arm/v7 otel/opentelemetry-collector-contrib:0.105.0
+
+
+
 #eclipse-temurin:8u412-b08-jdk-focal-arm
 #支持私库
 #eclipse-temurin:8u412-b08-jdk-focal
@@ -24,8 +30,9 @@
 #--platform=linux/amd64 grafana/grafana:9.5.20
 #--platform=linux/arm64/v8 grafana/grafana:9.5.20
 
---platform=linux/amd64 grafana/grafana:11.0.0
---platform=linux/arm64/v8 grafana/grafana:11.0.0
+#--platform=linux/amd64 grafana/grafana:11.0.0
+#--platform=linux/arm64/v8 grafana/grafana:11.0.0
+
 
 #--platform=linux/amd64 redis:7.2.5
 #--platform=linux/arm/v5 redis:7.2.5
