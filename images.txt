@@ -1,9 +1,11 @@
---platform=linux/amd64 otel/opentelemetry-collector-contrib:0.105.0
---platform=linux/arm64 otel/opentelemetry-collector-contrib:0.105.0
---platform=linux/arm/v7 otel/opentelemetry-collector-contrib:0.105.0
+--platform=linux/amd64 prom/pushgateway:v1.9.0
+--platform=linux/arm64/v8 prom/pushgateway:v1.9.0
+--platform=linux/arm/v7 prom/pushgateway:v1.9.0
 
 
-
+#--platform=linux/amd64 otel/opentelemetry-collector-contrib:0.105.0
+#--platform=linux/arm64 otel/opentelemetry-collector-contrib:0.105.0
+#--platform=linux/arm/v7 otel/opentelemetry-collector-contrib:0.105.0
 #eclipse-temurin:8u412-b08-jdk-focal-arm
 #支持私库
 #eclipse-temurin:8u412-b08-jdk-focal
