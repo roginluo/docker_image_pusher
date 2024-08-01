@@ -1,10 +1,25 @@
---platform=linux/amd64 prom/pushgateway:v1.9.0
---platform=linux/arm64/v8 prom/pushgateway:v1.9.0
---platform=linux/arm/v7 prom/pushgateway:v1.9.0
+--platform=linux/amd64 grafana/grafana:10.4.3
+--platform=linux/arm64 grafana/grafana:10.4.3
+--platform=linux/arm/v7 grafana/grafana:10.4.3
 
---platform=linux/amd64 grafana/grafana:11.1.1-ubuntu
---platform=linux/arm64 grafana/grafana:11.1.1-ubuntu
---platform=linux/arm/v7 grafana/grafana:11.1.1-ubuntu
+--platform=linux/amd64 jaegertracing/all-in-one:1.57
+--platform=linux/arm64 jaegertracing/all-in-one:1.57
+
+
+--platform=linux/amd64 opensearchproject/opensearch:2.14.0
+--platform=linux/arm64 opensearchproject/opensearch:2.14.0
+
+--platform=linux/amd64 quay.io/prometheus/prometheus:v2.52.0
+--platform=linux/arm64 quay.io/prometheus/prometheus:v2.52.0
+
+
+#--platform=linux/amd64 prom/pushgateway:v1.9.0
+#--platform=linux/arm64/v8 prom/pushgateway:v1.9.0
+#--platform=linux/arm/v7 prom/pushgateway:v1.9.0
+
+#--platform=linux/amd64 grafana/grafana:11.1.1-ubuntu
+#--platform=linux/arm64 grafana/grafana:11.1.1-ubuntu
+#--platform=linux/arm/v7 grafana/grafana:11.1.1-ubuntu
 
 #--platform=linux/amd64 otel/opentelemetry-collector-contrib:0.105.0
 #--platform=linux/arm64 otel/opentelemetry-collector-contrib:0.105.0
