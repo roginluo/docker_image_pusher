@@ -1,16 +1,26 @@
---platform=linux/amd64 grafana/grafana:10.4.3
---platform=linux/arm64 grafana/grafana:10.4.3
---platform=linux/arm/v7 grafana/grafana:10.4.3
+--platform=linux/amd64 apache/apisix:3.9.1-debian
+--platform=linux/arm64 apache/apisix:3.9.1-debian
 
---platform=linux/amd64 jaegertracing/all-in-one:1.57
---platform=linux/arm64 jaegertracing/all-in-one:1.57
+rancher/coreos-etcd:v3.4.16-arm64
+rancher/coreos-etcd:v3.4.16-amd64
+
+--platform=linux/amd64  nginx:1.27.0-otel
+--platform=linux/arm64  nginx:1.27.0-otel
 
 
---platform=linux/amd64 opensearchproject/opensearch:2.14.0
---platform=linux/arm64 opensearchproject/opensearch:2.14.0
+#--platform=linux/amd64 grafana/grafana:10.4.3
+#--platform=linux/arm64 grafana/grafana:10.4.3
+#--platform=linux/arm/v7 grafana/grafana:10.4.3
 
---platform=linux/amd64 quay.io/prometheus/prometheus:v2.52.0
---platform=linux/arm64 quay.io/prometheus/prometheus:v2.52.0
+#--platform=linux/amd64 jaegertracing/all-in-one:1.57
+#--platform=linux/arm64 jaegertracing/all-in-one:1.57
+
+
+#--platform=linux/amd64 opensearchproject/opensearch:2.14.0
+#--platform=linux/arm64 opensearchproject/opensearch:2.14.0
+
+#--platform=linux/amd64 quay.io/prometheus/prometheus:v2.52.0
+#--platform=linux/arm64 quay.io/prometheus/prometheus:v2.52.0
 
 
 #--platform=linux/amd64 prom/pushgateway:v1.9.0
