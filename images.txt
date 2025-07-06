@@ -1,7 +1,11 @@
-apacherocketmq/rocketmq-dashboard:latest
+--platform=linux/arm64/v8 eclipse-temurin:8u452-b09-jdk-jammy
+--platform=linux/amd64 eclipse-temurin:8u452-b09-jdk-jammy
 
---platform=linux/amd64 redis:4.0.10
---platform=linux/arm64/v8 redis:4.0.10
+
+#apacherocketmq/rocketmq-dashboard:latest
+
+#--platform=linux/amd64 redis:4.0.10
+#--platform=linux/arm64/v8 redis:4.0.10
 
 #--platform=linux/amd64 apache/apisix:3.9.1-debian
 #--platform=linux/arm64 apache/apisix:3.9.1-debian
